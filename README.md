@@ -7,7 +7,7 @@ Still a work in progress.
 
 
 Inspiration:
-[Maxime](https://maximeheckel.com) and (Nathan)[nathanthomas.dev] 
+[Maxime](https://maximeheckel.com) and [Nathan](nathanthomas.dev)
 
 
 ## Available Scripts
