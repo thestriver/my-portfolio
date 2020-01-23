@@ -1,5 +1,14 @@
-A react project created for personal portfolio
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My personal portfolio.
+Built with React JS and Tachyons CSS Framework.
+
+The goal was to make it as minimalist as possible. 
+
+Still a work in progress.
+
+
+Inspiration:
+[Maxime](https://maximeheckel.com) and (Nathan)[nathanthomas.dev] 
+
 
 ## Available Scripts
 
