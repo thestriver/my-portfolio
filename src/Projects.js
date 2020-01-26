@@ -36,7 +36,7 @@ function Projects(props) {
 			<Cards
 				gitlink="https://github.com/thestriver/AgTech-Ventures"
 				image="./portfolio_img/agritechfullb.jpg"			
-				title="AGTECH VENTURES WEBSITE"
+				title="AGTECH VENTURES"
 				description="HTML and CSS(Bootstrap)"
 			/>
 			
