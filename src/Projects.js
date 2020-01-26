@@ -6,6 +6,10 @@ function Projects(props) {
 	return (
 		<div className="tc cf">
 
+			<div>
+          		<h1 className="tc">Projects I've Worked On</h1>
+        	</div>
+        
 			<Cards
 				gitlink="https://github.com/thestriver/frontendprojects/tree/master/Landing_page_with_introduction"
 				image="./portfolio_img/huddlea.png"				
