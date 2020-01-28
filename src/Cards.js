@@ -4,9 +4,9 @@ import React from 'react'
 function Cards(props) {
     
     return (
-        <div className="fl w-50 grow">		
+        <div className="fl w-100 w-50-m w-50-l grow">		
             <a className="link black-70" href={props.gitlink}>
-                <img className="nb4" src={props.image} alt="portfolio-image"/>
+                <img className="nb4" src={props.image} alt="portfolio"/>
                 <div className="tc nt2">
                     <p className="f4 b">{props.title}</p>
                     <p className="nt2">{props.description}</p> 
