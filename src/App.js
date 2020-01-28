@@ -19,7 +19,7 @@ function App() {
 
         <nav className="dt w-100 border-box pa1 ph6-ns">
           <img src={logo} className="dib w4 h4 br-100" alt="Mahmud"/>
-          <div class="dtc v-mid w-75 tr">
+          <div className="dtc v-mid w-75 tr">
             <Link to="/projects" className="link dim dark-gray f4 f4-ns dib mr3 mr4-ns">Projects</Link>
             <Link to="/contact" className="link dim dark-gray f4 f4-ns dib mr3 mr4-ns">Contact</Link>
             <Route exact path="/projects" component={Projects} />
