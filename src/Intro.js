@@ -10,7 +10,7 @@ function Intro() {
           </p>
 
           <div className="pv4 f5">
-            <a className="f3 link underline dim pv4 pr4" href="./portfolio_img/Mahmud_Adeleye_CV_2020.pdf">Resume</a>
+            <a className="f3 link underline dim pv4 pr4" href="./portfolio_img/CV-MAHMUD_ADELEYE.pdf">Resume</a>
             <a className="f3 link underline dim pv4 pr4" href="https://github.com/thestriver">GitHub</a>
             <a className="f3 link underline dim pv4 pr4" href="https://www.linkedin.com/in/mahmudadeleye/">LinkedIn</a>
           </div>
