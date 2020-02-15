@@ -1,4 +1,4 @@
-##Introduction
+Introduction
 My personal portfolio page. The goal was to make it as minimalist as possible.
 
 Web Stack
