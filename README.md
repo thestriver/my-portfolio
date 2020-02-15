@@ -1,7 +1,7 @@
-Introduction
-My personal portfolio. The goal was to make it as minimalist as possible. 
+##Introduction
+My personal portfolio page. The goal was to make it as minimalist as possible.
 
-Stack
+Web Stack
 - Built with React JS and Tachyons CSS Framework.
 -Image Screenshots made with Adobe
 
