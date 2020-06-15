@@ -5,6 +5,7 @@ import './App.css';
 import Intro from './Intro' ;
 import Projects from './Projects';
 import Contact from './Contact' ; 
+import Darkmode from './Darkmode'
 
 function App() { 
   
@@ -26,6 +27,9 @@ function App() {
             {/* <Route exact path="/contact" component={Contact} /> */}
           </div>
         </nav>
+
+        <Darkmode />
+
 
         <Intro /> 
         <Projects />

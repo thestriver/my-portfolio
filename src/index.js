@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
@@ -6,9 +6,21 @@ import App from './App';
 import 'tachyons';
 import * as serviceWorker from './serviceWorker';
 
+function Room() {
+    const [isLit, setLit] = useState(true);
+    const brightness = isLit ? "lit" : "dark" ;
+  
+    return (
+      <div className={`room ${brightness}`}>
+        <button onClick={() => setLit(!isLit)}>Dark Mode</button>
+        <App />
+      </div>
+    );
+}
 
 ReactDOM.render(
-    <App />, 
+    <Room />,
+    // <App />, 
     document.getElementById('root')
 );
 
