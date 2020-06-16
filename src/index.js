@@ -13,8 +13,9 @@ function Room() {
     return (
       <div className={`room ${brightness}`}>
         <button onClick={() => setLit(!isLit)}>Dark Mode</button>
-        <App />
+        <App />  
       </div>
+      
     );
 }
 

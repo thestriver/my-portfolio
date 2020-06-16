@@ -27,10 +27,7 @@ function App() {
             {/* <Route exact path="/contact" component={Contact} /> */}
           </div>
         </nav>
-
-        <Darkmode />
-
-
+        
         <Intro /> 
         <Projects />
         <Contact />
