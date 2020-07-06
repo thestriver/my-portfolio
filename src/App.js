@@ -14,6 +14,9 @@ function App() {
       <div>
         <ul>
           <li>
+          <Link to="/">Home</Link>
+          </li>
+          <li>
             <Link to="/projects">Projects</Link>
           </li>
           <li>
@@ -21,16 +24,7 @@ function App() {
           </li>
         </ul>
 
-        <Switch>
-          <Route exact path="/projects">
-            <Projects />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-          
-
-        </Switch>
+       
 
         {/* setting up router
         <Route exact path="/" component={} />
@@ -48,6 +42,16 @@ function App() {
         </nav>
         
         <Intro /> 
+
+        {/* <Switch>
+          <Route exact path="/projects">
+            <Projects />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
+        </Switch> */}
+
         <Projects />
         <Contact />
        
