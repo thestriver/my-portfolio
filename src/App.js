@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import Intro from './Intro' ;
@@ -10,7 +10,7 @@ import Darkmode from './Darkmode'
 function App() { 
   
   return (
-    <BrowserRouter>
+    <Router>
       <div>
 
         {/* setting up router
@@ -39,7 +39,7 @@ function App() {
         </footer>
 
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
