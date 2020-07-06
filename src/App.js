@@ -12,6 +12,25 @@ function App() {
   return (
     <Router>
       <div>
+        <ul>
+          <li>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+          <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+
+        <Switch>
+          <Route exact path="/projects">
+            <Projects />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
+          
+
+        </Switch>
 
         {/* setting up router
         <Route exact path="/" component={} />
