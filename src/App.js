@@ -1,68 +1,32 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
-import Intro from './Intro' ;
-import Projects from './Projects';
-import Contact from './Contact' ; 
-import Darkmode from './Darkmode'
+import Intro from './components/Intro' ;
+import Projects from './components/Projects';
+import Contact from './components/Contact' ;
 
 function App() { 
   
   return (
-    <Router>
       <div>
-        <ul>
-          <li>
-          <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li>
-          <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-
-       
-
-        {/* setting up router
-        <Route exact path="/" component={} />
-        <Route exact path="/" component={} /> */}
-        
-
         <nav className="dt w-100 border-box pa1 ph6-ns">
-          <img src={logo} className="dib w4 h4 br-100" alt="Mahmud"/>
+          <img src={logo} className="dib w4 h4 br-100" alt="logo"/>
           <div className="dtc v-mid w-75 tr">
-            {/* <Link to="" className="link dim dark-gray f4 f4-ns dib mr3 mr4-ns">Projects</Link>
-            <Link to="" className="link dim dark-gray f4 f4-ns dib mr3 mr4-ns">Contact</Link>
-            {/* <Route exact path="/projects" component={Projects} /> */}
-            {/* <Route exact path="/contact" component={Contact} /> */}
           </div>
         </nav>
         
         <Intro /> 
-
-        {/* <Switch>
-          <Route exact path="/projects">
-            <Projects />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-        </Switch> */}
-
         <Projects />
         <Contact />
        
-        <footer className="tc mt5 mb2"> 
-          <div>
+        <footer className="tc mt5 mb4"> 
+          <div className="pb4">
+          {/* eslint-disable-next-line */}
           &copy;{(new Date().getFullYear())} <span>Mahmud Adeleye 🚀 | Made with ❤ </span>
           </div>
         </footer>
 
       </div>
-    </Router>
   );
 }
 
