@@ -46,7 +46,7 @@ function Projects(props) {
 			/>
 			
 			<Cards
-				gitlink="http://new-tdm-site.surge.sh/"
+				gitlink="http://gift-a-school-kit.surge.sh/"
 				image="./portfolio_img/giftkit.png"				
 				title="Gift A School Kit"
 				description="HTML5, Tailwind CSS, Vue.js"
