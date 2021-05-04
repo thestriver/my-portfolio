@@ -10,7 +10,7 @@ function App() {
   return (
       <div>
         <nav className="dt w-100 border-box pa1 ph6-ns">
-          <img src={logo} className="dib w4 h4 br-100" alt="logo"/>
+          <img src={logo} className="dib w4 h4-ns h3 pt2 pt0-ns br-100-ns" alt="logo"/>
           <div className="dtc v-mid w-75 tr">
           </div>
         </nav>

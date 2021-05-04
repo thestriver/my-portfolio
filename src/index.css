@@ -20,7 +20,23 @@ html, body, .room {
   background-color: white;
   color: black;
 }
+
+.lit a {
+  color: black;
+}
+
+.lit button {
+  border: none;
+  padding: 0;
+  background: none;
+}
+
 .dark {
   background-color: black;
-  color: white  !important ;
+  color: whitesmoke
 }
+
+.dark a {
+  color: whitesmoke
+}
+
