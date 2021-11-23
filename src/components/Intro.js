@@ -9,7 +9,7 @@ function Intro() {
           </p>
 
           <div className="pv4 f5">
-            <a target="_blank" rel="noopener noreferrer" className="f3 link underline dim pv4 pr4" href="./Mahmud_Adeleye_Resume.pdf">Resume</a>
+            {/* <a target="_blank" rel="noopener noreferrer" className="f3 link underline dim pv4 pr4" href="./Mahmud_Adeleye_Resume.pdf">Resume</a> */}
             <a target="_blank" rel="noopener noreferrer" className="f3 link underline dim pv4 pr4" href="https://github.com/thestriver">GitHub</a>
             <a target="_blank" rel="noopener noreferrer" className="f3 link underline dim pv4 pr4" href="https://www.linkedin.com/in/mahmudadeleye/">LinkedIn</a>
           </div>
