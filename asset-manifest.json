@@ -1,28 +1,13 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.2f7c6dc3.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.97e6cdec.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.97e6cdec.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.40ca06be.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.40ca06be.js.map",
-    "static/css/2.eb45ad44.chunk.css": "/my-portfolio/static/css/2.eb45ad44.chunk.css",
-    "static/js/2.f98c2556.chunk.js": "/my-portfolio/static/js/2.f98c2556.chunk.js",
-    "static/js/2.f98c2556.chunk.js.map": "/my-portfolio/static/js/2.f98c2556.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.4afec3fc.css",
+    "main.js": "/my-portfolio/static/js/main.668c6c51.js",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.74189b05d41d721f0f5a44891c2b3b90.js": "/my-portfolio/precache-manifest.74189b05d41d721f0f5a44891c2b3b90.js",
-    "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/css/2.eb45ad44.chunk.css.map": "/my-portfolio/static/css/2.eb45ad44.chunk.css.map",
-    "static/css/main.2f7c6dc3.chunk.css.map": "/my-portfolio/static/css/main.2f7c6dc3.chunk.css.map",
-    "static/js/2.f98c2556.chunk.js.LICENSE": "/my-portfolio/static/js/2.f98c2556.chunk.js.LICENSE",
-    "static/media/dark-mode.svg": "/my-portfolio/static/media/dark-mode.d4c8d6e2.svg",
-    "static/media/day-sunny.svg": "/my-portfolio/static/media/day-sunny.2b871e2b.svg",
-    "static/media/logo.svg": "/my-portfolio/static/media/logo.a181c4b2.svg"
+    "main.4afec3fc.css.map": "/my-portfolio/static/css/main.4afec3fc.css.map",
+    "main.668c6c51.js.map": "/my-portfolio/static/js/main.668c6c51.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.40ca06be.js",
-    "static/css/2.eb45ad44.chunk.css",
-    "static/js/2.f98c2556.chunk.js",
-    "static/css/main.2f7c6dc3.chunk.css",
-    "static/js/main.97e6cdec.chunk.js"
+    "static/css/main.4afec3fc.css",
+    "static/js/main.668c6c51.js"
   ]
 }
