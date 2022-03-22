@@ -4,15 +4,22 @@ import React from 'react'
 function Cards(props) {
     
     return (
-        <div className="fl  w-100 w-100-m w-40-l grow ml5-l">		
-            <a className="link underline-hover" href={props.gitlink}>
-                <img className="nb4" src={props.image} alt="portfolio"/>
-                <div className="tc nt5-ns nt4 ">
-                    <p className="f4 b">{props.title}</p>
-                    <p className="nt2">{props.description}</p> 
-                </div>
-            </a>
-		</div>
+        <>
+            <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
+                    <div className="rounded-lg">
+                        <img className="" src={props.image} alt="portfolio" />
+                    </div>
+                    <div className="flex flex-col items-start mt-4">
+                        <h4 className="text-xl font-semibold">{props.title}</h4>
+                        <p className="text-sm py-2">
+                        {props.description}
+                        </p>
+                        <a className="pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" href={props.gitlink}>
+                            Link 
+                        </a>
+                    </div>
+            </div>
+        </>
 
         
     )

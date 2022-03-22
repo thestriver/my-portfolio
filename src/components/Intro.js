@@ -1,22 +1,28 @@
-import React from 'react';
+export const Intro = () => {
+  return (
+      <div>
+           <section className="">
+              <div className="container flex flex-col items-center px-4 pt-16 pb-4 mx-auto xl:flex-row">     
+                  <div className="flex flex-col mt-6 xl:items-start xl:py-10">
+                      <h className="text-3xl font-medium tracking-tight text-white xl:text-5xl">
+                          Hi! <span>👋🏾</span> It's a pleasure to have you here.
+                      </h>
 
-function Intro() {
-    return (
-        <div className="pv4 f4 f2-ns measure center pr3 pl4 pl0-l justify-center" id="intro">
-          {/* eslint-disable-next-line */}
-          <h1 className="fw6 f1 fl w-100 mt0 mb3 sans-serif">Hi! <span role="img"> 👋🏾 </span> It's a pleasure to have you here.</h1>
-          <p className="db lh-copy serif fw1 mv0 f4 f3-m f2-l measure-wide monaco">I'm Mahmud Adeleye - a software developer with a passion for creating awesome products that matters.
-          </p>
+                      <p className="block lg:max-w-6xl font-normal mt-5 text-3xl text-gray-200 tracking-wide">
+                          I'm Mahmud Adeleye - a <span className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500"
+                          >software developer</span> with a passion for creating awesome products that matters. 🚀
+                      </p>
 
-          <div className="pv4 f5">
-            {/* <a target="_blank" rel="noopener noreferrer" className="f3 link underline dim pv4 pr4" href="./Mahmud_Adeleye_Resume.pdf">Resume</a> */}
-            <a target="_blank" rel="noopener noreferrer" className="f3 link underline dim pv4 pr4" href="https://github.com/thestriver">GitHub</a>
-            <a target="_blank" rel="noopener noreferrer" className="f3 link underline dim pv4 pr4" href="https://www.linkedin.com/in/mahmudadeleye/">LinkedIn</a>
+                  <div className="flex text-white space-x-5 text-xl pt-5">
+                          <a className="underline cursor-pointer" src="" >GitHub</a>
+                          <a className="underline cursor-pointer">Resume</a>
+                          <a className="underline cursor-pointer">LinkedIn</a>
+                  </div>      
           </div>
-
-        </div>
-    )
+      </div>
+  </section>
+      </div>
+  )
+  
 }
-
-
-export default Intro;
+  
