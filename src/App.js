@@ -14,7 +14,7 @@ function App() {
         <footer className="text-center mt-20 text-white"> 
           <div className="pb-2">
           {/* eslint-disable-next-line */}
-          &copy;{(new Date().getFullYear())} <span>Mahmud Adeleye 🚀 | Made with ❤ </span>
+          &copy;{(new Date().getFullYear())} <span>Mahmud Adeleye 🚀  | Made with ❤ </span>
           </div>
         </footer>
 

@@ -10,13 +10,13 @@ export const Intro = () => {
 
                       <p className="block lg:max-w-6xl font-normal mt-5 text-3xl text-gray-200 tracking-wide">
                           I'm Mahmud Adeleye - a <span className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500"
-                          >software developer</span> with a passion for creating awesome products that matters. 🚀
+                          >software developer</span> with a passion for creating awesome products that matter. 🚀
                       </p>
 
                   <div className="flex text-white space-x-5 text-xl pt-5">
-                          <a className="underline cursor-pointer" src="" >GitHub</a>
-                          <a className="underline cursor-pointer">Resume</a>
-                          <a className="underline cursor-pointer">LinkedIn</a>
+                        <a className="underline cursor-pointer" href="https://github.com/thestriver">GitHub</a>
+                        <a className="underline cursor-pointer" href="http://adeleyemahmud.com/wp-content/uploads/2022/03/Mahmud_Software_Dev_Resume.pdf">Resume</a>
+                        <a className="underline cursor-pointer" href="https://www.linkedin.com/in/mahmudadeleye/">LinkedIn</a>
                   </div>      
           </div>
       </div>
