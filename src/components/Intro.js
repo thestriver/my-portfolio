@@ -16,7 +16,6 @@ export const Intro = () => {
                   <div className="flex text-white space-x-5 text-xl pt-5">
                         <a className="underline cursor-pointer" href="https://github.com/thestriver">GitHub</a>
                         <a className="underline cursor-pointer" href="http://adeleyemahmud.com/wp-content/uploads/2022/03/Mahmud_Software_Dev_Resume.pdf">Resume</a>
-                        <a className="underline cursor-pointer" href="https://www.linkedin.com/in/mahmudadeleye/">LinkedIn</a>
                   </div>      
           </div>
       </div>
