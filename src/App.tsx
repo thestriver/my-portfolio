@@ -1,10 +1,12 @@
+import React from 'react';
 import './App.css';
-import { Articles } from './components/Articles';
-import {Intro }from './components/Intro' ;
+import Articles from './components/Articles';
+import Intro from './components/Intro' ;
 import Projects from './components/Projects';
 
-function App() { 
-  
+const App: React.FC = () => { 
+  const date : Date = new Date();
+  const currentYear: number = date.getFullYear();
   return (
       <div className="App">
         <Intro /> 
@@ -14,7 +16,7 @@ function App() {
         <footer className="text-center mt-20 text-white"> 
           <div className="pb-2">
           {/* eslint-disable-next-line */}
-          &copy;{(new Date().getFullYear())} <span>Mahmud Adeleye 🚀  | Made with ❤ </span>
+          &copy;{currentYear} <span>Mahmud Adeleye 🚀  | Made with ❤ </span>
           </div>
         </footer>
 

@@ -2,7 +2,7 @@ import React from 'react';
 import Cards from './Cards'
 
 
-function Projects(props) {
+const Projects: React.FC = () => { 
 	return (
 		<div className="tc cf">
 
