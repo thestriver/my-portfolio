@@ -25,6 +25,12 @@ const Projects: React.FC = () => {
 				description="Next.js, Typescript, Python, PostgreSQL, Vercel Edge Functions and OpenAI API"
 			/>
 			<Cards
+				gitlink="https://www.studybaseapp.com/"
+				image="https://cdn.pixabay.com/photo/2023/04/03/01/23/tree-7895726_960_720.jpg"				
+				title="StudyBase "
+				description="Typescript, Next.js, Tailwind CSS, PosgreSQL (Fullstack App)"
+			/>
+			<Cards
 				gitlink="https://github.com/thestriver/fastapi-azurecognitive"
 				image="https://metaschool.s3-ap-southeast-1.amazonaws.com/images/9pypeesiRehOmnAhIvvzJ73CaY9wslyQaFbLftek.png"				
 				title="Azure Cognitive Service API"
@@ -36,7 +42,6 @@ const Projects: React.FC = () => {
 				title="Photo Feed App"
 				description="React JS, AWS Amplify Admin UI and Tailwind CSS"
 			/>
-			
 			<Cards 
 				gitlink="https://github.com/thestriver/devore-edu-app"
 				image="https://i.ibb.co/6Jbby8C/Screen-Shot-2022-03-22-at-18-28-24.png"				
