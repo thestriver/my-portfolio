@@ -15,6 +15,9 @@ const Articles = () => {
             <div className="container flex flex-col items-center px-2 pt-4 pb-12 mx-auto xl:flex-row">
             {/* Resize the preview panel to check the responsiveness*/}                
                 <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-2 xl:space-x-5 xl:max-w-7xl">
+                    <Card title={'A Comprehensive Front-end Developer Guide to Building AI apps in 2023'} 
+                        link={'https://frontendcode.hashnode.dev/a-comprehensive-front-end-developer-guide-to-building-ai-apps-in-2023'}
+                    />
                     <Card title={'Create a Photo Feed App with React, Tailwind CSS, and AWS Amplify Admin UI'} 
                         link={'https://adeleyemahmud.com/2021/06/13/create-and-deploy-a-photo-feed-with-react-tailwind-css-and-aws-amplify/'}
                     />
@@ -24,9 +27,9 @@ const Articles = () => {
                      <Card title={'Create A Simple React Application with Google Sheets API and Tailwind CSS'} 
                         link={'https://adeleyemahmud.com/2021/06/13/create-and-deploy-a-react-application-with-google-sheets-api-and-tailwind-css/'}
                     />
-                    <Card title={'You Do Have Something To Hide – Why You Should Worry About Your Online Privacy'} 
+                    {/* <Card title={'You Do Have Something To Hide – Why You Should Worry About Your Online Privacy'} 
                         link={'https://adeleyemahmud.com/2021/06/13/you-do-have-something-to-hide-why-you-should-worry-about-your-online-privacy/'}
-                    />
+                    /> */}
                 </div>
             </div>
        </>

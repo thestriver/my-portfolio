@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
             <div className="flex flex-col mt-2 xl:items-start">
                 <h1 className="text-3xl font-bold tracking-tight text-white xl:text-4xl">Deployed Projects </h1> 
                 <p className="block lg:max-w-5xl font-normal my-3 text-xl text-gray-200 tracking-wide">
-                    Here are some projects I've worked on
+                    Here are some personal projects I've worked on
                 </p>
             </div>   
         </div>
@@ -18,7 +18,18 @@ const Projects: React.FC = () => {
 		<div className="container flex flex-col items-center px-2 mx-auto xl:flex-row">
         {/* Resize the preview panel to check the responsiveness*/}                
         <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-2 max-w-7xl">
-
+			<Cards
+				gitlink="https://pvcommunity-bot.vercel.app/"
+				image="https://i.ibb.co/f9CnDPS/Screenshot-2023-04-14-at-2-12-03-PM.png"				
+				title="Community AI Bot app"
+				description="Next.js, Typescript, Python, PostgreSQL, Vercel Edge Functions and OpenAI API"
+			/>
+			<Cards
+				gitlink="https://github.com/thestriver/fastapi-azurecognitive"
+				image="https://metaschool.s3-ap-southeast-1.amazonaws.com/images/9pypeesiRehOmnAhIvvzJ73CaY9wslyQaFbLftek.png"				
+				title="Azure Cognitive Service API"
+				description="Sentiment, Language Detection and Key Phrase extraction analysis"
+			/>
 			<Cards
 				gitlink="https://github.com/thestriver/photo-feed"
 				image="https://i.ibb.co/KW7NfLN/amplify-aws.jpg"				
@@ -30,7 +41,7 @@ const Projects: React.FC = () => {
 				gitlink="https://github.com/thestriver/devore-edu-app"
 				image="https://i.ibb.co/6Jbby8C/Screen-Shot-2022-03-22-at-18-28-24.png"				
 				title="Devore Educational App"
-				description="Typescript, React JS, Ethers.js, Headless UI and Tailwind CSS"
+				description="Typescript, React JS, Headless UI and Tailwind CSS"
 			/>
 			
 			<Cards
@@ -44,7 +55,7 @@ const Projects: React.FC = () => {
 				gitlink="https://schoolkit-frontend.vercel.app/"
 				image="https://i.ibb.co/pwNmc6F/IMG-5229-1024x683.jpg"				
 				title="Donate A School Kit App"
-				description="React (Next.js), Solidity    and Tailwind CSS."
+				description="React (Next.js), and Tailwind CSS."
 			/>
 
 			<Cards
@@ -55,12 +66,12 @@ const Projects: React.FC = () => {
 			/>
 
 			
-			<Cards
+			{/* <Cards
 				gitlink="https://github.com/thestriver/RecieptsOrganizerApp_with_DropBoxAPI"
 				image="https://metaschool.s3-ap-southeast-1.amazonaws.com/images/9pypeesiRehOmnAhIvvzJ73CaY9wslyQaFbLftek.png"				
 				title="Dropbox Invoice Organizer"
 				description="HTML5, CSS, Javascript with DropBox API"
-			/>
+			/> */}
 			
 			
 
