@@ -5,30 +5,35 @@ interface CardProps {
     gitlink: string
 }
 
-const Cards = ({image, title, description, gitlink}: CardProps) => { 
-    
+const Cards = ({ image, title, description, gitlink }: CardProps) => {
     return (
-        <>
-            <div className="flex flex-col bg-gray-900 text-white rounded-lg p-4 m-2">
-                    <div className="rounded-lg">
-                        <img className="w-[262px] h-[158.9px]" src={image} alt="portfolio"  />
-                    </div>
-                    <div className="flex flex-col items-start mt-4">
-                        <h4 className="text-xl font-semibold">{title}</h4>
-                        <p className="text-sm py-2">
-                        {description}
-                        </p>
-                        <a className="pb-2 leading-none rounded-xl font-bold mt-3 underline text-green-600 text-sm" href={gitlink}>
-                            Link 
-                        </a>
-                    </div>
+        <div className="group h-full flex flex-col bg-gray-900/80 cursor-pointer rounded-lg card-shine-effect overflow-hidden backdrop-blur-sm transition-all duration-300 hover:scale-[1.02] hover:shadow-md hover:shadow-pink-500/20">
+            <div className="relative h-48 md:h-56 xl:h-48 w-full">
+                <img
+                    src={image}
+                    alt={title}
+                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
+                />
             </div>
-        </>
 
-        
-    )
-
-    
+            <div className="flex flex-col flex-grow p-4">
+                <h3 className="text-xl font-bold text-white group-hover:text-pink-400 transition-colors mb-3 line-clamp-1">
+                    {title}
+                </h3>
+                <p className="text-sm text-gray-300 mb-4 line-clamp-3">
+                    {description}
+                </p>
+                <a
+                    href={gitlink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center hover:underline text-sm font-semibold text-emerald-400 hover:text-emerald-300 mt-auto transition-colors"
+                >
+                    Link
+                </a>
+            </div>
+        </div>
+    );
 
 }
 

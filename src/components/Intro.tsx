@@ -9,7 +9,7 @@ const Intro = () => {
                       </p>
 
                       <p className="block lg:max-w-6xl font-normal mt-5 text-3xl text-gray-200 tracking-wide">
-                          I'm Mahmud Adeleye - a <span className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500"
+                          I'm Mahmud Adeleye - a <span className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-green-500 via-purple-400 to-green-700"
                           >software developer</span> with a passion for creating awesome products that matter. 🚀
                       </p>
 
