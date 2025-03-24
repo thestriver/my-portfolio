@@ -6,7 +6,31 @@ const projects = [
 		gitlink: "https://www.idunu.org/",
 		image: "https://www.idunu.org/assets/images/logo2.png",
 		title: "IDUNU",
-		description: "Award-winning full-stack fundraising and fund distribution solutions for high-impact, cost-effective charities, and NGOs."
+		description: "Award-winning full-stack fundraising and fund distribution solutions for high-impact, cost-effective charities, and NGOs. Built with Next.js, Tailwind CSS, PostgreSQL, Finetuned LLMs and Agents."
+	},
+	{
+		gitlink: "https://ml-visualization.vercel.app/",
+		image: "https://github.com/thestriver/ml-visualization/raw/main/public/screenshot.png",
+		title: "Interactive ML Visualizations",
+		description: "Interactive ML visualization showcase using D3.js, visx, and WebGL/Three.js. Features loss curves, confusion matrices, feature importance, and 3D predictions - built with Next.js, TypeScript, and Tailwind CSS."
+	},
+	{
+		gitlink: "https://github.com/thestriver/ai-ocr-playground",
+		image: "https://github.com/thestriver/ai-ocr-playground/raw/main/public/home.png",
+		title: "AI OCR Playground",
+		description: "Compare state-of-the-art OCR models across Mistral, OpenAI, Google, and Anthropic models in real-time. Built with Next.js, TypeScript and Tailwind CSS."
+	},
+	{
+		gitlink: "https://www.speechbuddyai.com/",
+		image: "https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/svg/1f399.svg",
+		title: "Speech Buddy AI",
+		description: "Speech Buddy AI is an AI-powered platform that helps you improve your speech and communication skills. Built with Next.js, Tailwind CSS, PostgreSQL, Finetuned LLMs and Agents."
+	},
+	{
+		gitlink: "https://ultimateaimac.app",
+		image: "https://www.ultimateaimac.app/_next/image?url=%2Fassets%2Fimages%2Fchat.png&w=1920&q=75",
+		title: "Ultimate AI Mac",
+		description: "Native Mac application for AI workflows. Local LLM processing with privacy focus. Built with Swift and SwiftUI"
 	},
 	{
 		gitlink: "https://igiwe.com",
@@ -25,12 +49,6 @@ const projects = [
 		image: "https://www.ultimateaimac.app/_next/image?url=%2Fassets%2Fimages%2Faivoice.png&w=1920&q=75",
 		title: "Voice Support AI",
 		description: "Fullstack voice-based app for customer-facing teams. Features AI transcription and semantic search. Built with Next.js and multimodal LLMS."
-	},
-	{
-		gitlink: "https://ultimateaimac.app",
-		image: "https://www.ultimateaimac.app/_next/image?url=%2Fassets%2Fimages%2Fchat.png&w=1920&q=75",
-		title: "Ultimate AI Mac",
-		description: "Native Mac application for AI workflows. Local LLM processing with privacy focus. Built with Swift and SwiftUI"
 	},
 	// {
 	// 	gitlink: "https://pvcommunity-bot.vercel.app/",
